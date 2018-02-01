@@ -1,0 +1,71 @@
+.principal-container {
+    overflow: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 50px);
+    width: 100%; 
+    text-align: center;
+&__description {
+    background: rgba(0, 0, 0, 0.418);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px;
+    display: inline-block;
+    text-align: justify;
+    &-info {
+        text-align: justify;
+        display: block;
+        @media screen and (max-width: 440px) {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+    &-subtitle {
+        color: rgb(29, 144, 179);
+        display: inline-block;
+        vertical-align: middle;
+        @media screen and (max-width: 440px) {
+            text-align: center;
+        }
+    }
+    &-subtitle2 {
+        color: rgb(29, 144, 179);
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &-button {
+        background: rgb(29, 144, 179);
+        color: white;
+        border-radius: 8px;
+        float: right;
+        font-size: 15px;
+        border: none;
+        padding: 5px 15px;
+        margin-top: 10px;
+        @media screen and (max-width: 440px) {
+            float: none;
+            text-align: center;
+        }
+    }
+    &-buttonB {
+        background: rgb(153, 49, 17);
+        color: white;
+        border-radius: 8px;
+        float: right;
+        font-size: 15px;
+        border: none;
+        padding: 5px 15px;
+        margin-top: 10px;
+        @media screen and (max-width: 440px) {
+            float: none;
+            text-align: center;
+        }
+    }
+    &-text {
+        text-align: justify;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: white;
+    }
+    }
+}
