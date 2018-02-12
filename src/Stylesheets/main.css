@@ -112,7 +112,9 @@
 
 .trailer {
   margin-top: 50px;
-  text-align: center; }
+  text-align: center;
+  width: 500px;
+  height: 315px; }
   @media screen and (max-width: 1000px) {
     .trailer {
       width: 405px; } }
@@ -222,6 +224,7 @@
 
 .container {
   background-size: cover;
+  background-image: url("../Images/poster.jpg");
   background-repeat: no-repeat;
   width: 100%;
   display: flex;
