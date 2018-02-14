@@ -1,0 +1,125 @@
+.header {
+    background: black;
+    color: white;
+    position: relative;
+    display: block;
+    height: 50px;
+    &__title {
+        display: inline-block;
+        font-size: 20px;
+        vertical-align: middle;
+        color: white;
+        &--movies {
+            color:rgb(103, 144, 182)
+        }
+        &:hover { 
+            color:rgb(87, 87, 167);}
+    }
+    &__menu {
+        display:  inline-block;
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
+        vertical-align: middle;
+        @media screen and (max-width: 500px) {
+            margin-right: 0px;
+        }
+        @media screen  and (max-width: 350px) {
+            margin-left: 0px;
+        }
+    }
+    &__linebar {
+        height: 2px;
+        width: 20px;
+        background: white;
+        display: block;
+        margin: 3px 0;
+    }
+    &__icon {
+        background-image: url('../Images/nav_icons_sprites.png');
+        background-repeat: no-repeat;
+        display: inline-block;
+        &-container {
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @media screen and (max-width:700px) {
+                transform: translate(-30%, -50%);
+                right: 0;
+                left: unset;
+            }
+            @media screen and (max-width:550px){
+                transform: translate(-10%, -50%);
+            }
+            @media screen and (max-width:380px) {
+                display: inline-block;
+            }
+        }
+        &--star {
+            background-position-x: 0;
+            background-position-y: 0;
+            width: 20px;
+            height: 16px;
+            margin-right: 20px;
+            @media screen and (max-width:500px) {
+                margin-right: 5px;
+            }
+        }
+        &--movie {
+            background-position-x: 0;
+            background-position-y: -26px;
+            width: 20px;
+            height: 16px;
+            margin-right: 20px;
+            @media screen and (max-width:500px) {
+                margin-right: 5px;
+            }
+        }
+        &--play {
+            background-position-x: 0;
+            background-position-y: -52px;
+            width: 16px;
+            height: 16px;    
+            margin-right: 20px;  
+            @media screen and (max-width:500px) {
+                margin-right: 5px;
+            }     
+        }
+        &--film {
+            background-position-x: 0;
+            background-position-y: -78px;
+            width: 24px;
+            height: 16px;  
+            @media screen and (max-width:500px) {
+                margin-right: 5px;
+            }                
+        }
+    } 
+}
+
+.avatar {
+    float: right;
+    vertical-align: middle;
+    text-align: center;
+    @media screen and (max-width:700px) {
+        display: none;
+    }
+    &__name {
+        font-size: 15px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+    &__image {
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+}

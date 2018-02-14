@@ -1,0 +1,14 @@
+.container {
+    background-size: cover;
+    background-image: url("../Images/poster.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
