@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Image from './Images/poster.jpg';
 
-class MoviesListMovies extends Component {
+class LeftMovie extends Component {
     render (){
         return (
             <div className="left-menu__movies">
@@ -12,4 +12,4 @@ class MoviesListMovies extends Component {
         );
     }
 }
-export default MoviesListMovies;
+export default LeftMovie;

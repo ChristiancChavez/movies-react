@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import MoviesListMovies from './movies-list-movies.js';
+import LeftMovie from './Left-Movie.js';
 
 class ListMovies extends Component {
     render(){
         return (
             <div className="left-menu__listmovies">
-                <MoviesListMovies />
-                <MoviesListMovies />
-                <MoviesListMovies />
-                <MoviesListMovies />
-                <MoviesListMovies />
-                <MoviesListMovies />
-                <MoviesListMovies />
-                <MoviesListMovies />
-                <MoviesListMovies />
+                <LeftMovie />
+                <LeftMovie />
+                <LeftMovie />
+                <LeftMovie />
+                <LeftMovie />
+                <LeftMovie />
+                <LeftMovie />
+                <LeftMovie />
+                <LeftMovie />
             </div>    
         );  
     }
