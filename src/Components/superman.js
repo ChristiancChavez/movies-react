@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SupermanImg from './Images/superman.jpg';
+import SupermanImg from '../Images/superman.jpg';
 
 class Superman extends Component {
     render() {

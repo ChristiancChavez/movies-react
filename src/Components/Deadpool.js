@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DeadpoolImg from './Images/deadpool.jpg';
+import DeadpoolImg from '../Images/deadpool.jpg';
 
 class Deadpool extends Component {
     render() {

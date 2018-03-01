@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BlackPantherImg from './Images/black-panther.jpg';
+import BlackPantherImg from '../Images/black-panther.jpg';
 
 class BlackPanther extends Component {
     render() {
