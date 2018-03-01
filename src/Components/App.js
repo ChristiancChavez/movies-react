@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header.js';
-import MainContainer from './Main-container.js';
+//import MainContainer from './Main-container.js';
 
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div>
       <Header />
-      <MainContainer/>
+      {this.props.children}
     </div>
     );
   }
